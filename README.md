@@ -4,9 +4,10 @@
 
 Using the concept of Physics informed Neural Networks(PINNs) derived from the Cited Reference Paper we solve a 1D Heat Transfer equation.
 Problem Statement:
--We have been given a PDE: du/dx=2du/dt+u and boundary condition: u(x,0)=10e^(-5x)
--Independent variables: x,t (input) Dependent variables: u (outputs) We have to find out u(x,t) for all x in range [0,10] and t in range [0,10]
--Our function is f = du/dx - 2du/dt - u
+- We have been given a PDE: du/dx=2du/dt+u and boundary condition: u(x,0)=10e^(-5x)
+- Independent variables: x,t (input) Dependent variables: u (outputs) We have to find out u(x,t) for all x in range [0,10] and t in range [0,10]
+- Our function is f = du/dx - 2du/dt - u
+
 
 ## Acknowledgements/References/Citations
 
