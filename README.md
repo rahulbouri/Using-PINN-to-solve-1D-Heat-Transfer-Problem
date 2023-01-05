@@ -8,6 +8,10 @@ Problem Statement:
 - Independent variables: x,t (input) Dependent variables: u (outputs) We have to find out u(x,t) for all x in range [0,10] and t in range [0,10]
 - Our function is f = du/dx - 2du/dt - u
 
+We exploit recent developments in automatic differentiation – one of the most useful but perhaps under-utilized techniques in scientific computing – to differentiate neural networks with respect to their input coordinates and model parameters to obtain physics-informed neural networks.
+
+In this work, we consider parametrized and nonlinear partial differential equations of the general form: ut + N [u; λ] = 0, x ∈ , t ∈ [0, T ], where u(t, x) denotes the latent (hidden) solution, N [·; λ] is a nonlinear operator parametrized by λ, and  is a subset of RD . This setup encapsulates a wide range of problems in mathematical physics including conservation laws, diffusion processes, advection–diffusion–reaction systems, and kinetic equations
+
 
 ## Acknowledgements/References/Citations
 
